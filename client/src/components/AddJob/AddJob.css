@@ -1,0 +1,99 @@
+.add__job {
+  display: flex;
+  overflow: hidden;
+}
+
+.add__job__left {
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 5vw;
+}
+.add__job__left h1{
+font-size: 40px;
+font-weight: 700;
+text-align: left;
+line-height: 58px;
+letter-spacing: 0em;
+}
+.job__form {
+  display: flex;
+  flex-direction: column;
+}
+.job__input{
+  height: fit-content;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+.job__input label{
+font-size: 23px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+}
+.job__input input{
+  width: 100%;
+height: 38.66757583618164px;
+border-radius: 4.603283405303955px;
+border: 1.8413134813308716px solid #C2C2C2;
+}
+.job__input select{
+width: 150px;
+height: 38.66757583618164px;
+border-radius: 4.603283405303955px;
+border: 1.8413134813308716px solid #C2C2C2;
+}
+
+.job__input textarea{
+  width: 100%;
+height: 94.82762908935547px;
+
+  width: 150px;
+  height: 38.66757583618164px;
+  border-radius: 4.603283405303955px;
+  border: 1.8413134813308716px solid #C2C2C2;
+  }
+.input_box{
+  width: 500px;
+}
+
+.add__job__right {
+  background-image: url("../../assets/addJobPage//addJob.png");
+  height: 100vh;
+  width: 50vw;
+  color: white;
+}
+
+.job__buttons {
+  display: flex;
+  justify-content: center;
+  width: 30vw;
+  margin-left: 20vw;
+}
+
+.cancel__addJob {
+  height: 5.5vh;
+  width: 12vw;
+  background-color: #c2c2c2;
+  border-radius: 1vh;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  margin: 1vh 0 0 0;
+}
+
+.add__job__button {
+  height: 5.5vh;
+  width: 12vw;
+  background-color: #ed5353;
+  border-radius: 1vh;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  margin: 1vh 0 0 1vh;
+  cursor: pointer;
+}

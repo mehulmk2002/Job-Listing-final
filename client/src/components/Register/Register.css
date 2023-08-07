@@ -1,0 +1,73 @@
+.register__page {
+  display: flex;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+}
+
+.register__page__left {
+  height: 100vh;
+  width: 55vw;
+  display: flex;
+  flex-direction: column;
+  gap: 4vh;
+  align-items: center;
+}
+
+.register__title {
+  width: 35vw;
+  margin-top: 8vh;
+  text-align: left;
+}
+
+.register__form {
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  gap: 3vh;
+}
+
+.register__form > div > input {
+  height: 8vh;
+  width: 35vw;
+  border-radius: 1vh;
+  border-color: grey;
+  font-size: 2.5vh;
+  padding: 0 1rem;
+}
+
+.register__form > div > p {
+  margin: 0;
+  font-size: 1.2rem;
+  text-align: left;
+  color: red;
+}
+
+.register__footer {
+  width: 35vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  align-items: flex-start;
+}
+
+#register__create__account {
+  align-self: left;
+  background-color: #ed5353;
+  border: none;
+  border-radius: 1vh;
+  color: white;
+  font-size: 2.5vh;
+  font-weight: 700;
+  height: 7vh;
+  width: 15vw;
+}
+
+.register__page__right > img {
+  height: 100vh;
+  width: 45vw;
+}
+
+.error-message{
+  font-size: 2rem;
+}
